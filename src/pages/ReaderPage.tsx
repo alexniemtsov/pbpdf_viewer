@@ -21,5 +21,5 @@ export function ReaderPage() {
 	if (!id) {
 		return <p>Book not found</p>;
 	}
-	return <PDFViewer bookId={id} />;
+	return <PDFViewer url={"/pdf/sample-local-pdf.pdf"} />;
 }
