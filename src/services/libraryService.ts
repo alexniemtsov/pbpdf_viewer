@@ -6,5 +6,5 @@ export const libraryService = {
 	fetchAll: async (): Promise<BookMeta[]> => {
 		const resp = await axios.get<BookMeta[]>('/lib.json');
 		return resp.data;
-	}
+	},
 };

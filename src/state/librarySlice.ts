@@ -4,18 +4,22 @@ import { libraryService } from "../services/libraryService";
 interface LibraryState {
 	items: BookMeta[],
 	status: 'idle' | 'loading' | 'success' | 'error',
-
 	error: string | null
 }
 
 export interface BookMeta {
+	id: string,
 	name: string,
-	pages: BookProgress
+	pages: number,
+	author: BookAuthor,
+	coverUrl?: string,
+
 }
 
-interface BookProgress {
-	total: number,
-	current: number
+export interface BookAuthor {
+	id: string,
+	name: string
+
 }
 
 

@@ -24,4 +24,5 @@ dist-ssr
 *.sw?
 
 .export.js
-all.txt
+export.txt
+

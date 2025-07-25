@@ -1,8 +1,22 @@
-{
-	"lib": [
-		{
-			"name": "TestBook",
-			"file": ""
+[
+	{
+		"id": "bc617779-5cde-4177-97ce-80d47b5bb024",
+		"name": "Book1",
+		"file": "",
+		"pages": 10,
+		"author": {
+			"id": "7e371952-8e13-4b4e-af51-3618ea87feb9",
+			"name": "TestAuthor"
 		}
-	]
-}
+	},
+	{
+		"id": "2885a473-728d-4341-8951-7daeb70223d6",
+		"name": "Book2",
+		"file": "",
+		"pages": 10,
+		"author": {
+			"id": "7e371952-8e13-4b4e-af51-3618ea87feb9",
+			"name": "TextAuthor"
+		}
+	}
+]
